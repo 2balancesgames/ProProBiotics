@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     private float gameStartTime;
     public Animator ggAnim;
     public GameOver gameOver;
-
+    public Text AGEText;
     public bool gameIsOver = false;
     
     private void Awake(){
@@ -69,7 +71,12 @@ public class GameManager : MonoBehaviour
         acidLevel += acidImpact;
         gasLevel += gasImpact;
         energyLevel += energyImpact;
+        AGEText.text = "Acid: "+ acidLevel + "  Gas: "+ gasLevel + "  Energy: "+ energyLevel;
         CheckIfGameOver();
+    }
+
+    private void UpdateAGEText(){
+
     }
 
     private void CheckIfGameOver(){

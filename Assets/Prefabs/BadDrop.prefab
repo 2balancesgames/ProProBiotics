@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8988381646575250554}
   - component: {fileID: 1000223279931177033}
   - component: {fileID: 9137383041799340120}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: BadDrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,654 @@
+fileFormatVersion: 2
+guid: cbf47f746ce0e454e938285012e44be3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5113523627894861500
+    second: allgoodstuff_0
+  - first:
+      213: -7727507178672641936
+    second: allgoodstuff_1
+  - first:
+      213: 7025835980302959771
+    second: allgoodstuff_2
+  - first:
+      213: -7258279748358521831
+    second: allgoodstuff_3
+  - first:
+      213: 2167138094637328246
+    second: allgoodstuff_4
+  - first:
+      213: 6764198572926479548
+    second: allgoodstuff_5
+  - first:
+      213: -1184765276124785561
+    second: allgoodstuff_6
+  - first:
+      213: 4956763798068154761
+    second: allgoodstuff_7
+  - first:
+      213: -1267207511884845272
+    second: allgoodstuff_8
+  - first:
+      213: 1091258448719352186
+    second: allgoodstuff_9
+  - first:
+      213: 8919954846741114373
+    second: allgoodstuff_10
+  - first:
+      213: 1466145411758527171
+    second: allgoodstuff_11
+  - first:
+      213: -8896806397936737461
+    second: allgoodstuff_12
+  - first:
+      213: 9193901169825607586
+    second: allgoodstuff_13
+  - first:
+      213: -7003813259778043747
+    second: allgoodstuff_14
+  - first:
+      213: 4498657235273752599
+    second: allgoodstuff_15
+  - first:
+      213: 8824947090025682353
+    second: allgoodstuff_16
+  - first:
+      213: -5627333851220456678
+    second: allgoodstuff_18
+  - first:
+      213: -3114404670879540402
+    second: allgoodstuff_19
+  - first:
+      213: -4539752157592793759
+    second: allgoodstuff_20
+  - first:
+      213: 2801600536213893288
+    second: allgoodstuff_21
+  - first:
+      213: -8076821642512958084
+    second: allgoodstuff_22
+  - first:
+      213: 8398768487462686335
+    second: allgoodstuff_23
+  - first:
+      213: 2393789929131498964
+    second: allgoodstuff_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: allgoodstuff_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 124
+        width: 92
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44192c06a5d1909b0800000000000000
+      internalID: -5113523627894861500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_1
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 116
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078afefb92162c490800000000000000
+      internalID: -7727507178672641936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 184
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94cd108998c08160800000000000000
+      internalID: 7025835980302959771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_3
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 176
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cbdae5609654b90800000000000000
+      internalID: -7258279748358521831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_4
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 175
+        width: 67
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67723167d98331e10800000000000000
+      internalID: 2167138094637328246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 48
+        width: 240
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcac7983c24fdd50800000000000000
+      internalID: 6764198572926479548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 208
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7645d5e224ede8fe0800000000000000
+      internalID: -1184765276124785561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_7
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 28
+        width: 156
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9815e5b8966f9c440800000000000000
+      internalID: 4956763798068154761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_8
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 80
+        width: 172
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fa56d5b79f96ee0800000000000000
+      internalID: -1267207511884845272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 76
+        width: 64
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a719f0207cde42f00800000000000000
+      internalID: 1091258448719352186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_10
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 104
+        width: 88
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e27845cab0acb70800000000000000
+      internalID: 8919954846741114373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_11
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 124
+        width: 52
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c29fe8eb7bc85410800000000000000
+      internalID: 1466145411758527171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_12
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 160
+        width: 148
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ee87e7b1388480800000000000000
+      internalID: -8896806397936737461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_15
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 108
+        width: 20
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710abbaabe07e6e30800000000000000
+      internalID: 4498657235273752599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 96
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5199e2f92887a70800000000000000
+      internalID: 8824947090025682353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 40
+        width: 68
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b497d5da1b7e1b0800000000000000
+      internalID: -5627333851220456678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 40
+        width: 68
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b5861e37967c4d0800000000000000
+      internalID: -3114404670879540402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_20
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 38
+        width: 55
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d4e5e177f8ff0c0800000000000000
+      internalID: -4539752157592793759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_21
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 20
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0b29b18d841e620800000000000000
+      internalID: 2801600536213893288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_22
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 8
+        width: 144
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7df3db428d59ef80800000000000000
+      internalID: -8076821642512958084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 92
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e45f5d07b6e8470800000000000000
+      internalID: 8398768487462686335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: allgoodstuff_27
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 16
+        width: 137
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd5ac8f143783120800000000000000
+      internalID: 2393789929131498964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

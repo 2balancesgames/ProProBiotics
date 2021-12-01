@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class Mover: MonoBehaviour { // if abstract then cannot drag&drop
     public BoxCollider2D boxCollider;
-	private RaycastHit2D hit;
+	protected RaycastHit2D hit;
 	public float speed = 3.0f;
 
 	protected virtual void Start(){
@@ -25,12 +25,12 @@ public class Mover: MonoBehaviour { // if abstract then cannot drag&drop
 		// moveDelta += pushDirection;
 		// pushDirection = Vector3.Lerp(pushDirection, Vector3.zero, pushRecoverySpeed); // 慢慢减少push 不然会一直push没边
 
-	    hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, delta.y), Mathf.Abs(delta.y), LayerMask.GetMask("Character") );	 
+	    hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, delta.y), Mathf.Abs(delta.y), LayerMask.GetMask("Character", "Building") );	 
 
         if (hit.collider == null) {
 	    	transform.Translate(0, delta.y, 0);
         } 
-	    hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(delta.x, 0), Mathf.Abs(delta.x), LayerMask.GetMask("Character") );
+	    hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(delta.x, 0), Mathf.Abs(delta.x), LayerMask.GetMask("Character", "Building") );
         if (hit.collider == null) {
 	    	transform.Translate(delta.x, 0, 0);
 	    } 

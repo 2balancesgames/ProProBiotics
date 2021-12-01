@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 2718605334170209954}
   m_Layer: 7
   m_Name: h_pylori
-  m_TagString: Untagged
+  m_TagString: Bacteria
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,8 +117,8 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  triggerLength: 5
-  chaseLength: 8
+  triggerLength: 2
+  chaseLength: 5
 --- !u!61 &2718605334170209958
 BoxCollider2D:
   m_ObjectHideFlags: 0

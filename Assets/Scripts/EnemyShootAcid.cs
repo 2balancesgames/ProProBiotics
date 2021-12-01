@@ -12,7 +12,7 @@ public class EnemyShootAcid : MonoBehaviour
     public float shootInterval = 1f;
 
     private float lastShootTime;
-
+    public int impactChance = 20;
     void Start()
     {
         lastShootTime = Time.time;
@@ -21,7 +21,7 @@ public class EnemyShootAcid : MonoBehaviour
     {
         if (GameManager.instance.gameIsOver || Time.time - lastShootTime < shootInterval) return;
         lastShootTime = Time.time;
-        // GameManager.instance.TakeThreeImpact(1,0,0);
+        if  (Random.Range(0,100)<impactChance) GameManager.instance.TakeThreeImpact(1,0,0);
         Vector3 shootDirection = Motions.GetARandomDirection();
         AcidDrop ad = Instantiate(acidDrop, gameObject.transform.position, Quaternion.identity);
         ad.SetDirection(shootDirection.x, shootDirection.y);

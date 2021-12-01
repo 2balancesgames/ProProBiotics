@@ -26,7 +26,7 @@ public class Mortal : MonoBehaviour
     {
         anim = GetComponent<Animator>();
 		decompose = GetComponent<GenerateFood>();
-		GameManager.instance.TakeThreeImpact(acidImpact, gasImpact, energyImpact);
+		// GameManager.instance.TakeThreeImpact(acidImpact, gasImpact, energyImpact);
     }
 
 
@@ -58,7 +58,7 @@ public class Mortal : MonoBehaviour
 
     }
 
-	protected virtual void Death()
+	public virtual void Death()
 	{
 		Debug.Log( name + " is dead");
 		GameManager.instance.TakeThreeImpact(-acidImpact, -gasImpact, -energyImpact);

@@ -10,6 +10,8 @@ public class Eat : Collidable
             if (gameObject.name == "Player"){
                 int food_id =int.Parse(coll.name.Split('_')[1]);
                 GameManager.instance.foodAmount[food_id]+=1;
+                GameManager.instance.ShowText("yummy!", 30, Color.white, transform.position + new Vector3(0, 0.5f, 0), new Vector3(0, 30, 0), 3f);
+
             }
             Destroy(coll.gameObject);
         }

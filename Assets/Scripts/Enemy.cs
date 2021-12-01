@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Enemy : Mover
 {
-    private Transform playerTransform;
-	private bool collidingWithPlayer;
+    protected Transform playerTransform;
+	protected bool collidingWithPlayer;
     public ContactFilter2D filter;
 
     private Vector3 direction = Vector3.zero;
@@ -26,8 +26,12 @@ public class Enemy : Mover
         anim = GetComponent<Animator>();
     }
     // Update is called once per frame
-    void FixedUpdate()
-    {  
+    protected void FixedUpdate()
+    {   if (! transform) return;
+    
+        if (!playerTransform) NormalMovement();
+
+
         if (Vector3.Distance(playerTransform.position, transform.position) < chaseLength){
 			if (Vector3.Distance(playerTransform.position, transform.position) < triggerLength) chasing = true;
 			
@@ -44,6 +48,19 @@ public class Enemy : Mover
 			chasing = false;
             NormalMovement();
 		}        
+
+        collidingWithPlayer = false;
+		boxCollider.OverlapCollider(filter, hits);
+		for (int i=0; i<hits.Length; i++)
+		{
+			if(hits[i] == null) continue;
+
+			if(hits[i].name =="Player"){
+				collidingWithPlayer = true;
+			}
+			
+			hits[i]=null; 
+		}
         
     }
 
